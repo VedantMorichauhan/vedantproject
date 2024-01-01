@@ -1,0 +1,76 @@
+.baner-text {
+  padding-bottom: 30px;
+  text-align: left;
+  color: #333333;
+  line-height: 20px;
+  font-weight: 700;
+
+  .heding{
+    font-weight: 700;
+    font-size: 62px;
+  }
+
+  .Organici {
+    font-weight: 10;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .lorem {
+    color: #666666;
+    margin-top: 0px;
+    font-size: 13px;
+    font-weight: 100;
+  
+  }
+  button {
+    
+    background-color: #81b03f;
+    border: none;
+    color:#ffffff;
+    padding: 15px 40px;
+    font-weight: 100;
+    margin-bottom: 250px;
+  
+  }
+
+
+}
+
+// WELCOME TO ORGANIVE
+
+.wlogo{
+  position: relative;
+   position: absolute;
+    left: 47%;
+    margin-top: 100px;
+  }
+  .Green{
+    position: absolute;
+    left: 44%;
+    color: #81b03f;
+    font-size: 20px;
+    padding-top: 87px;
+    letter-spacing: 1px;
+  }
+  .welcome{
+    padding-top: 180px;
+    font-weight: 700;
+    font-size: 42px;
+    padding-bottom: 80px;
+  }
+  .icon-01{
+    padding: 0px 70px;
+    width: 90px;
+    height: 90px;
+  }
+
+
+
+
+
+
+
+/* Other styling elements, that are not necessary for the example */
