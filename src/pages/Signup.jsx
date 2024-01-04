@@ -19,7 +19,7 @@ const Signup = () => {
   }
 
   const handlesubmit = (e) => {
-    e.praventDefault();
+    e.preventDefault();
     let user = {
       username: username,
       email: email,
@@ -30,7 +30,7 @@ const Signup = () => {
   }
   return (
     <>
-      <from onsubmit={handlesubmit}>
+      <form onSubmit={handlesubmit}>
         <input
           type="text"
           placeholder="username"
@@ -50,7 +50,7 @@ const Signup = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <input type="submit" />
-      </from>
+      </form>
     </>
   )
 }
