@@ -17,13 +17,13 @@ const Login = () => {
   };
 
   const handlesubmit = (e) => {
-    e.praventDefault();
+    e.preventDefault();
       handleLogin(email, password);
 
   };
   return (
     <>
-      <from onsubmit={handlesubmit}>
+      <form onSubmit={handlesubmit}>
         <input
           type="email"
           placeholder="email"
@@ -37,7 +37,7 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <input type="submit" />
-      </from>
+      </form>
     </>
   )
 }
