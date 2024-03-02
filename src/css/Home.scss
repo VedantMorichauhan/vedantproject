@@ -244,8 +244,40 @@
   margin-left: 565px;
   margin-top: 100px;
 }
+.star{
+  color: #fc0;
+  padding: 2px;
+  margin: 2px;
+}
+.blog1{
+  width: 555px ;
+  height: 360px;
+}
+.There{
+h5{
+  &:hover{
+    color: #81b03f;
+  }
+}
+}
+.june{
+  background-color: #81b03f;
+  color: #ffffff;
+}
+/**/
+.nav{
+  display: flex;
+  justify-content: space-around;
 
-
+}
+.pro{
+  color: black;
+}
+.pro-img{
+  padding: 30px;
+  width: 350px;
+  height: 400px;
+}
 
 
 

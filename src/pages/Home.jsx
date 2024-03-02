@@ -4,10 +4,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import { IoIosArrowForward } from "react-icons/io";
 import '../css/Home.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Col, Row } from 'react-bootstrap';
 import { FaSearch } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { SlBasket } from "react-icons/sl";
+import { FaStar } from "react-icons/fa";
 import { IoIosArrowBack } from "react-icons/io";
 import other from "../img/other-01.jpg"
 import other2 from "../img/other-02.png"
@@ -38,6 +39,8 @@ import product15 from "../img/product-15.jpg"
 import product16 from "../img/product-16.jpg"
 import product17 from "../img/product-17.jpg"
 import avatar1 from "../img/avatar-01.jpg"
+import blog1 from "../img/blog-01.jpg"
+import blog2 from "../img/blog-02.jpg"
 
 
 function Home() {
@@ -180,52 +183,6 @@ function Home() {
     <img className=' text-center other' src={other} />
     </div>
 
-    {/* vegetable  */}
-
-    <div className="vegetable row">
-
-          <div class="m-0 p-0 col-12 col-md-3">
-            <div class="vegetable-1">
-              </div>
-          </div>
-
-          <div class="m-0 p-0 col-12 col-md-3">
-            <div class="fruit">
-                <div class="icon-1 ">
-                </div>
-              </div>
-            <div class="card-title ms-4 text-center">
-              <h2 class="fs-5 mt-3 baner-text ">100% ORGANIC</h2>
-              <p class="text-center pt-4 pb-4 lorem">Lorem Ipsum is simply dummy text of the printing and typesetting .</p>
-          </div>
-          </div>
-
-          <div class="col-12 col-md-3">
-            <div class="special-grid">
-                <div class="icon-1 ">
-                </div>
-              </div>
-            <div class="card-title ms-4 text-center">
-              <h2 class="fs-5 mt-3 baner-text ">100% ORGANIC</h2>
-              <p class="text-center pt-4 pb-4 lorem">Lorem Ipsum is simply dummy text of the printing and typesetting .</p>
-          </div>
-          </div>
-
-          <div class="col-12 col-md-3">
-            <div class="special-grid">
-                <div class="icon-1 ">
-                </div>
-              </div>
-            <div class="card-title ms-4 text-center">
-              <h2 class="fs-5 mt-3 baner-text ">100% ORGANIC</h2>
-              <p class="text-center pt-4 pb-4 lorem">Lorem Ipsum is simply dummy text of the printing and typesetting .</p>
-          </div>
-          </div>
-    </div>
-
-    <div className="vegetable-11">
-      vedant mori
-    </div>
 
     {/* OUR PRODUCTS */}
     <h2 className='Green mt-5 '>Featured Products  </h2>
@@ -570,11 +527,67 @@ function Home() {
     {/* Christina Cox */}
 
     <div className="bg-img bg-2">
+
+      
       <div className="container ">
         <img className='avatar1' src={avatar1} roundedCircle/>
         <h2 className='text-center mt-3'>Christina Cox</h2>
+        <div className="star text-center">
+        < FaStar />
+        < FaStar />
+        < FaStar />
+        < FaStar />
+        < FaStar />
+        </div>
+        <p className='mb-5 pb-5'>
+If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+</p>
       </div>
     </div>
+
+    {/* FROM OUR BLOG */}
+
+    <h2 className='Green mt-5 '>Keep Updated With Us</h2>
+     <img className='wlogo' src={symbol} alt="" />
+     <div>
+     <h1 className='text-center welcome'>FROM OUR BLOG</h1>
+     </div>
+     <div className="container ">
+      <div className="row">
+        <div className="col-12 col-md-6 There ">
+            <img className='blog1'  src={blog1} alt="" />
+              <Row className='pt-5'>
+                 <Col sm={2}>
+                  <div className="june text-center">
+                      <div className="col"><h1 className='fw-bold' >18</h1></div>
+                      <div className="col"><h3 className='fs-5 pb-3'>june</h3></div>
+                  </div>
+                 </Col>
+                  <Col  sm={10}>
+                    <h5 >There are many variations of passages of Lorem Ipsum available</h5>
+                    <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod titncidunt ut laoreet dolore magna aliquam erat volutpat. Ut ...</p>
+                  </Col>
+              </Row>
+
+        </div>
+
+        <div className="col-12 col-md-6 There">
+        <img className='blog1' src={blog2} alt="" />
+        <Row className='pt-5'>
+                 <Col sm={2}>
+                 <div className="june text-center">
+                      <div className="col"><h1 className='fw-bold'>18</h1></div>
+                      <div className="col"><h3 className='fs-5 pb-3'>june</h3></div>
+                  </div>
+                 </Col>
+                  <Col sm={10}>
+                    <h5 >There are many variations of passages of Lorem Ipsum available</h5>
+                    <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod titncidunt ut laoreet dolore magna aliquam erat volutpat. Ut ...</p>
+                  </Col>
+              </Row>
+        </div>
+      </div>
+     </div>
     </>
   );
 }
