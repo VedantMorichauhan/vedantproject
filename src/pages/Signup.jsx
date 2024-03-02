@@ -3,6 +3,7 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { useState } from "react";
 import {signup} from '../redux/Action'
+import '../css/signup.css'
 
 const Signup = () => {
 
@@ -30,8 +31,9 @@ const Signup = () => {
   }
   return (
     <>
-      <form onSubmit={handlesubmit}>
+      <form className="form" onSubmit={handlesubmit}>
         <input
+
           type="text"
           placeholder="username"
           value={username}
@@ -51,6 +53,9 @@ const Signup = () => {
         />
         <input type="submit" />
       </form>
+      <div className="div">
+        <h1 className="text-center"> Sign up</h1>
+      </div>
     </>
   )
 }

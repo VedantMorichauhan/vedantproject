@@ -4,15 +4,40 @@
       "username": "vedant",
       "email": "vedant@gmail.com",
       "password": "1234",
-      "id": 1
+      "id": "1"
     },
     {
       "username": "vedant ",
       "email": "vedant@gmail.com",
       "password": "1234",
-      "id": 2
+      "id": "2"
+    },
+    {
+      "username": "kalpesh",
+      "email": "jkalpesh@gmail.com",
+      "password": "1234",
+      "id": "3"
+    },
+    {
+      "id": "0e20",
+      "username": "vedant",
+      "email": "vedant@gmail.com",
+      "password": "1234"
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "title": "Strawberry",
+      "img": "https://freebw.com/templates/oragnive-v1/images/product-02.jpg",
+      "price": "23",
+      "id": "1"
+    },
+    {
+      "title": "Cauliflower",
+      "img": "https://freebw.com/templates/oragnive-v1/images/product-03.jpg",
+      "price": "19",
+      "id": "2"
+    }
+  ],
   "cart": []
 }

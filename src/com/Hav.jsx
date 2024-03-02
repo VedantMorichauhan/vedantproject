@@ -15,13 +15,14 @@ const Hav = () => {
   // console.log(all);
 
   return (
+    <>
     <div id="nav">
       <a className='logo '   style={{ backgroundImage: `url(${BannerImage})` }}>
         </a>
       <Link to="/" className="link padding-1">
         <h4>Home</h4>
       </Link>
-      <Link to="/product" className="link padding-1">
+      <Link to="/Product" className="link padding-1">
         <h4>Product</h4>
       </Link>
 
@@ -46,6 +47,7 @@ const Hav = () => {
         </Link>
       )}
     </div>
+    </>
   );
 };
 

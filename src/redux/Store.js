@@ -1,7 +1,7 @@
 import { applyMiddleware, combineReducers, legacy_createStore } from "redux";
 import { thunk } from "redux-thunk";
 import { User } from "./reduce/User";
-import product from "../pages/Product";
+import { product } from "./reduce/product";
 
 let combine = combineReducers({
   user: User,

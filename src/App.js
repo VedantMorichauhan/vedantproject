@@ -1,5 +1,6 @@
 import './App.css';
 import Allrouter from './com/Allrouter';
+import Footer from './com/Footer';
 import Hav from './com/Hav';
 
 
@@ -8,6 +9,7 @@ function App() {
     <>
     <Hav/>
     <Allrouter/>
+    <Footer/>
     </>
   );
 }
